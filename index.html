@@ -1,0 +1,511 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeus-UI</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+      
+          <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0 g-2">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Case studies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="d-flex justify-content-center">
+            <a class="navbar-brand" href="#"><img src="images/Logo.svg" alt="logo"></a>
+          </div>
+            
+            <form class="position-relative d-flex ms-md-auto ms-lg-0 me-0" role="search">              
+              <input class=" form-control me-3 navbar__input" type="search" placeholder="Search..." aria-label="Search">
+              <i class="position-absolute navbar__input__icon"><img src="images/search-icon.svg"></i>
+              <button class="btn btn-outline-success navbar__btn" type="submit">Try&nbsp;for&nbsp;free</button>
+            </form>
+          
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <!-- <span class="navbar-toggler-icon"></span> -->
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M19.875 11H4.125C3.82663 11 3.54048 11.1054 3.32951 11.2929C3.11853 11.4804 3 11.7348 3 12C3 12.2652 3.11853 12.5196 3.32951 12.7071C3.54048 12.8946 3.82663 13 4.125 13H19.875C20.1734 13 20.4595 12.8946 20.6705 12.7071C20.8815 12.5196 21 12.2652 21 12C21 11.7348 20.8815 11.4804 20.6705 11.2929C20.4595 11.1054 20.1734 11 19.875 11Z" fill="white"/>
+                <path d="M19.875 16H4.125C3.82663 16 3.54048 16.1054 3.32951 16.2929C3.11853 16.4804 3 16.7348 3 17C3 17.2652 3.11853 17.5196 3.32951 17.7071C3.54048 17.8946 3.82663 18 4.125 18H19.875C20.1734 18 20.4595 17.8946 20.6705 17.7071C20.8815 17.5196 21 17.2652 21 17C21 16.7348 20.8815 16.4804 20.6705 16.2929C20.4595 16.1054 20.1734 16 19.875 16Z" fill="white"/>
+                <path d="M19.875 6H4.125C3.82663 6 3.54048 6.10536 3.32951 6.29289C3.11853 6.48043 3 6.73478 3 7C3 7.26522 3.11853 7.51957 3.32951 7.70711C3.54048 7.89464 3.82663 8 4.125 8H19.875C20.1734 8 20.4595 7.89464 20.6705 7.70711C20.8815 7.51957 21 7.26522 21 7C21 6.73478 20.8815 6.48043 20.6705 6.29289C20.4595 6.10536 20.1734 6 19.875 6Z" fill="white"/>
+              </svg>
+            </button>
+
+        </div>
+      </nav>
+
+    <main class="page__container">
+        <!-- hero -->
+        <section class="section hero">
+            <div class="hero__head">
+                <h1 class="hero__title mb-0">Make<br>
+                    Something<br>
+                    Amazing<br>
+                    <span class="hero__title--color">Today</span></h1>
+                <p class="hero__info mb-0">Velit, odio bibendum eu, viverra sit laoreet posuere.</p>
+            </div>
+            <div class="hero__buttons">
+                <div class="">
+                    <button class="btn hero__button1 me-sm-2 me-md-3" type="button">Contact sales</button>
+                    <button class="btn hero__button2" type="button">Try for free</button>
+                </div>
+            </div>
+        </section>
+        <!-- brands -->
+        <section class="section brands">
+            <div class="brands__content">
+                <p class="brands__text mb-0">Trusted by 200+ companies around the world</p>
+                <div class="brands__list">
+                    <ul class="brands__list-ul nav justify-content-center">
+                        <li class="nav-item">
+                          <a class="nav-link" href="#"><img src="images/brands-logo1.svg" alt="brand-logo"></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#"><img src="images/brands-logo2.svg" alt="brand-logo"></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#"><img src="images/brands-logo3.svg" alt="brand-logo"></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#"><img src="images/brands-logo4.svg" alt="brand-logo"></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#"><img src="images/brands-logo5.svg" alt="brand-logo"></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#"><img src="images/brands-logo6.svg" alt="brand-logo"></a>
+                        </li>
+                      </ul>
+                </div>
+            </div>
+        </section>
+        <!-- features1 -->
+        <section class="section features1">
+            <div class="row">
+              <div class="col-12 col-xl-6 features1__image">
+                <img src="images/features1-img.png" alt="display-img" class="img-fluid" height="634px" width="634px">
+              </div>
+            
+              <div class="col-12 col-xl-6 features1__content">
+                <h2 class="features1__title mb-0">Increase Revenue<br class="d-lg-block d-sm-none">up to 60%</h2>
+                <p class="features1__info mb-0">Vitae, faucibus viverra nullam ridiculus. Dolor nunc, tortor pellentesque eleifend. Nam mauris gravida sit vitae consectetur mattis. Morbi sed sit habitant metus commodo, turpis. Rhoncus et.</p>
+              </div>
+            </div>
+        </section>
+
+        <!-- features2 -->
+        <section class="section features2">
+          <div class="row">
+            <div class="col-12 col-md-6 features2__content order-2 order-md-1">
+                <h2 class="features2__title mb-0">Reliable Software</h2>
+                <p class="features2__info mb-0">Risus commodo id odio turpis pharetra elementum. Pulvinar porta porta feugiat scelerisque in elit. Morbi rhoncus, tellus, eros consequat magna semper orci a tincidunt.</p>
+                <div class="mt-4">
+                  <nav class="nav flex-column features2__list">
+                    <p class="mb-0 d-flex align-items-center"><span class="features2__list__img"><img src="images/features2-icon1.svg" alt="icon"></span><span class="features2__list__text">Invoice generating</span></p>
+                    <p class="mb-0 d-flex align-items-center"><span class="features2__list__img"><img src="images/features2-icon2.svg" alt="icon"></span><span class="features2__list__text">Increase your metrics</span></p>
+                    <p class="mb-0 d-flex align-items-center"><span class="features2__list__img"><img src="images/features2-icon3.svg" alt="icon"></span><span class="features2__list__text">Reach your goals faster</span></p>
+                  </nav>
+                </div>
+            </div>
+        
+            <div class="col-12 col-md-6 features2__image order-1 order-md-2">
+                <img src="images/features2-img.png" alt="display-img" class="img-fluid" height="634px" width="634px">
+            </div>
+          </div>  
+        </section>
+
+        <!-- services -->
+        <section class="section services">
+          <div class="services__content">
+            <h2 class="services__title mb-0">We Offer</h2>
+            <p class="services__info mb-0">Risus commodo id odio turpis pharetra elementum. Pulvinar porta porta feugiat scelerisque in<br class="d-xl-block d-none">elit. Morbi rhoncus, tellus, eros consequat magna semper orci a tincidunt. </p>
+          </div>
+          <div class="row services__grid">
+            <div class="col-12 col-md-6 col-lg-6 col-xl-3">
+              <div class="card services__card">
+                <img src="images/services-icon1.svg" class="" alt="card-icon-img" height="48px" width="48px">
+                <div class="card-body p-0">
+                  <h5 class="card-title mb-2 services__card__title">10 GB in cloud </h5>
+                  <p class="card-text mt-1 services__card__info">Sit aliquam eget luctus tincidunt velit id nunc lorem arcu. Metus sit dui.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 col-xl-3">
+              <div class="card services__card">
+                <img src="images/services-icon2.svg" class="" alt="card-icon-img" height="48px" width="48px">
+                <div class="card-body p-0">
+                  <h5 class="card-title mb-2 services__card__title">Team workspace</h5>
+                  <p class="card-text mt-1 services__card__info">Imperdiet vitae, blandit amet, scelerisque pretium, magna ornare.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 col-xl-3">
+              <div class="card services__card">
+                <img src="images/services-icon3.svg" class="" alt="card-icon-img" height="48px" width="48px">
+                <div class="card-body p-0">
+                  <h5 class="card-title mb-2 services__card__title">Dynamic sync</h5>
+                  <p class="card-text mt-1 services__card__info">Quam nulla lectus ut orci consectetur parturient. Scelerisque pellentesque.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 col-xl-3">
+              <div class="card services__card">
+                <img src="images/services-icon4.svg" class="" alt="card-icon-img" height="48px" width="48px">
+                <div class="card-body p-0">
+                  <h5 class="card-title mb-2 services__card__title">White label</h5>
+                  <p class="card-text mt-1 services__card__info">Quam nulla lectus ut orci consectetur parturient. Scelerisque pellentesque.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- pricing -->
+        <section class="section pricing">
+          <div class="pricing__content">
+            <h2 class="pricing__title mb-0">Pricing</h2>
+            <p class="pricing__info mb-0">Risus commodo id odio turpis pharetra elementum. Pulvinar porta porta feugiat <br class="d-xl-block d-none">scelerisque in elit. Morbi rhoncus, tellus, eros consequat magna semper orci a <br class="d-xl-block d-none">tincidunt.</p>
+          </div>
+          <div class="pricing__wrapper">
+            <div class="pricing__toggle">
+              <span class="pricing__toggle__text">Monthly</span>
+              <div class="form-check form-switch">
+                <input class="form-check-input pricing__toggle__btn" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                <!-- <label class="form-check-label" for="flexSwitchCheckChecked">Checked switch checkbox input</label> -->
+              </div>
+              <span class="pricing__toggle__text">Yearly</span>
+              <span class="badge pricing__toggle__badge">save 20%</span>
+            </div>
+            <div class="row pricing__grid">
+              <div class="col-sm-12 col-md-4">
+                <div class="card pricing__card">
+                  <div class="card-body p-0">
+                    <h5 class="card-title pricing__card__title">Lite plan</h5>
+                    <h6 class="card-subtitle pricing__card__subtitle">Mi sit amet maecenas augue</h6>
+                    <hr class="pricing__card__hr">
+                    <ul class="list-unstyled mb-0 pricing__card__list">
+                      <li class="pricing__card__list-item"><span><img src="images/check-icon.svg" class="me-2"></span>3 users in workspace</li>
+                      <li class="pricing__card__list-item"><span><img src="images/check-icon.svg" class="me-2"></span>Workflow automations</li>
+                      <li class="pricing__card__list-item"><span><img src="images/check-icon.svg" class="me-2"></span>Monthly Billing</li>
+                      <li class="pricing__card__list-item"><span><img src="images/check-icon.svg" class="me-2"></span>Collaborative work</li>
+                      <li class="pricing__card__list-item"><span><img src="images/check-icon.svg" class="me-2"></span>10 GB in cloud storage</li>
+                    </ul>
+                    <hr class="pricing__card__hr">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                      <span class="pricing__card__amt">$24</span>
+                      <span class="pricing__card__suffix mt-4">/mo</span>
+                    </div>
+                    <div class="d-grid gap-2">
+                      <button class="btn pricing__card__btn1" type="button">Button</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-4">
+                <div class="card pricing__card">
+                  <div class="card-body p-0">
+                    <h5 class="card-title pricing__card__title">Basic plan</h5>
+                    <h6 class="card-subtitle pricing__card__subtitle">Mi sit amet maecenas augue</h6>
+                    <hr class="pricing__card__hr">
+                    <ul class="list-unstyled mb-0 pricing__card__list">
+                      <li class="pricing__card__list-item"><span><img src="images/check-icon.svg" class="me-2"></span>5 users in workspace</li>
+                      <li class="pricing__card__list-item"><span><img src="images/check-icon.svg" class="me-2"></span>Workflow automations</li>
+                      <li class="pricing__card__list-item"><span><img src="images/check-icon.svg" class="me-2"></span>Weekly Billing</li>
+                      <li class="pricing__card__list-item"><span><img src="images/check-icon.svg" class="me-2"></span>Collaborative work</li>
+                      <li class="pricing__card__list-item"><span><img src="images/check-icon.svg" class="me-2"></span>15 GB in cloud storage</li>
+                    </ul>
+                    <hr class="pricing__card__hr">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                      <span class="pricing__card__amt">$32</span>
+                      <span class="pricing__card__suffix mt-4">/mo</span>
+                    </div>
+                    <div class="d-grid gap-2">
+                      <button class="btn pricing__card__btn2" type="button">Button</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-4">
+                <div class="card pricing__card">
+                  <div class="card-body p-0">
+                    <h5 class="card-title pricing__card__title">Pro plan</h5>
+                    <h6 class="card-subtitle pricing__card__subtitle">Mi sit amet maecenas augue</h6>
+                    <hr class="pricing__card__hr">
+                    <ul class="list-unstyled mb-0 pricing__card__list">
+                      <li class="pricing__card__list-item"><span><img src="images/check-icon.svg" class="me-2"></span>7 users in workspace</li>
+                      <li class="pricing__card__list-item"><span><img src="images/check-icon.svg" class="me-2"></span>Workflow automations</li>
+                      <li class="pricing__card__list-item"><span><img src="images/check-icon.svg" class="me-2"></span>Daily Billing/li>
+                      <li class="pricing__card__list-item"><span><img src="images/check-icon.svg" class="me-2"></span>Collaborative work</li>
+                      <li class="pricing__card__list-item"><span><img src="images/check-icon.svg" class="me-2"></span>20 GB in cloud storage</li>
+                    </ul>
+                    <hr class="pricing__card__hr">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                      <span class="pricing__card__amt">$40</span>
+                      <span class="pricing__card__suffix mt-4">/mo</span>
+                    </div>
+                    <div class="d-grid gap-2">
+                      <button class="btn pricing__card__btn1" type="button">Button</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="section testimonials">
+          <h2 class="testimonials__title">Testimonials</h2>
+          <div class="row testimonials__grid">
+
+            <div class="col-12 col-lg-7">
+              <div class="card testimonials__card">
+                <img src="images/brands-logo6.svg" class="" alt="card-icon-img" height="48px">
+                <div class="card-body p-0">
+                  <h5 class="card-title mb-3 testimonials__card__title">Supa cool!</h5>
+                  <!-- <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6> -->
+                  <p class="card-text testimonials__card__info">Consectetur consequat integer enim nullam. Integer urna volutpat enim cursus egestas parturient sagittis. Nisi, purus, convallis lacus pulvinar volutpat risus a, nunc volutpat. Scelerisque arcu quam adipiscing malesuada malesuada nibh. Facilisis commodo volutpat egestas facilisis risus maecenas sollicitudin. Pellentesque quis porta volutpat neque. Aliquam egestas faucibus sit et a amet nunc.</p>
+                </div>
+                <div class="d-flex align-items-end align-self-stretch flex-column">
+                  <span class="testimonials__card__name">Savannah Nguyen, Techical Writer at Foursets</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-lg-5">
+              <div class="card testimonials__card">
+                <img src="images/brands-logo1.svg" class="" alt="card-icon-img" height="48px">
+                <div class="card-body p-0">
+                  <h5 class="card-title mb-3 testimonials__card__title">Amazing</h5>
+                  <!-- <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6> -->
+                  <p class="card-text testimonials__card__info">Ullamcorper adipiscing cras arcu enim sed et lobortis urna, morbi. Ornare mattis neque, non vivamus. Semper morbi elit scelerisque aliquam, lobortis enim, eget. At amet, varius leo amet. Interdum porta porta cursus phasellus. Sit laoreet pellentesque egestas enim.</p>
+                </div>
+                <div class="d-flex align-items-end align-self-stretch flex-column">
+                  <span class="testimonials__card__name">Kristin Watson, UX Designer at Setproduct</span>
+                </div>
+              </div>
+            </div>
+
+          
+            <div class="col-12 col-lg-5">
+              <div class="card testimonials__card">
+                <img src="images/brands-logo2.svg" class="" alt="card-icon-img" height="48px">
+                <div class="card-body p-0">
+                  <h5 class="card-title mb-3 testimonials__card__title">Awesome</h5>
+                  <!-- <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6> -->
+                  <p class="card-text testimonials__card__info">Consequat nullam justo, id consectetur. Dapibus risus hendrerit risus ipsum in fermentum lacus diam. Amet vitae amet, ac, sit tellus nunc facilisis. Diam libero morbi lobortis tellus vitae, dignissim. Duis malesuada orci, augue etiam. Nulla viverra suscipit dui neque. Ut.</p>
+                </div>
+                <div class="d-flex align-items-end align-self-stretch flex-column">
+                  <span class="testimonials__card__name">Jenny Wilson, Accountant at Google</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-lg-7">
+              <div class="card testimonials__card">
+                <img src="images/brands-logo3.svg" class="" alt="card-icon-img" height="48px">
+                <div class="card-body p-0">
+                  <h5 class="card-title mb-3 testimonials__card__title">Fantastic</h5>
+                  <!-- <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6> -->
+                  <p class="card-text testimonials__card__info">Fringilla sem imperdiet ut enim. Vel suspendisse risus elit mauris purus. Et viverra dolor, ac aliquam suspendisse. Condimentum tincidunt volutpat condimentum augue. Est, consequat mattis porttitor adipiscing amet fermentum. Arcu sit molestie turpis posuere libero, nascetur enim arcu sed. Mi porta orci, a consectetur etiam quisque nisl. Tempor etiam at nec aenean iaculis lacinia.</p>
+                </div>
+                <div class="d-flex align-items-end align-self-stretch flex-column">
+                  <span class="testimonials__card__name">Albert Flores, Delivery Manager at Amazon</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          
+        </section>
+
+        <!-- blogs -->
+        <section class="section blog">
+          <h2 class="blog__title">Product Lessons</h2>
+          <div class="row blog__grid">
+
+              <div class="col-12 col-md-12 col-lg-6 d-flex flex-sm-column">
+                <div class="card blog__card">
+                  <div class="row g-0">
+                    <div class="col-md-4 col-lg-12">
+                      <img src="images/Landing Example/Blog Preview/Tablet/unsplash_NjjONA3K0-k.png" class="card-img-top rounded-md-start" alt="blog-img">
+                    </div>
+                    <div class="col-md-8 col-lg-12">
+                      <div class="card-body">
+                        <h5 class="card-title blog__card__title">How We Optimized Our SEO</h5>
+                        <p class="card-text blog__card__info">Eu consequat, eget mattis congue. Morbi pulvinar cras turpis habitant. Mi cursus aliquam sem habitasse. Habitant duis pharetra, odio venenatis nisi. At sollicitudin volutpat magna dignissim tristique pellentesque. Massa tortor in in at phasellus facilisis eget. Volutpat donec tempor enim amet amet, tristique. Ac lectus ut viverra convallis.
+                          Accumsan rhoncus facilisis est, pharetra quam nulla sit sed vitae. Nunc dui lectus eu.</p>                   
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-lg-6">
+
+                <div class="col-12 col-md-12 d-flex flex-sm-column">
+                  <div class="card blog__card">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="images/blog-img2.png" class="card-img-top rounded-start" alt="blog-img">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title blog__card__title">Automation. Basic Level</h5>
+                          <p class="card-text blog__card__info">Lacus volutpat a, aliquet fringilla lobortis proin magna quisque. Dignissim augue morbi molestie gravida.</p>                      
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="col-12 col-md-12 d-flex flex-sm-column">
+                  <div class="card blog__card">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="images/blog-img3.png" class="img-fluid rounded-start" alt="blog-img">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title blog__card__title">10 Modern Design Tools</h5>
+                          <p class="card-text blog__card__info">Eleifend sapien sagittis ultricies id venenatis. Consectetur proin sagittis faucibus nibh et ut enim. Interdum </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="col-12 col-md-12 d-flex flex-sm-column">
+                  <div class="card blog__card">
+                    <div class="row g-0"> 
+                      <div class="col-md-4">
+                        <img src="images/blog-img4.png" class="img-fluid rounded-start" alt="blog-img">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title blog__card__title">Automation. Advanced Level</h5>
+                          <p class="card-text blog__card__info">Leo amet faucibus volutpat sit. Habitant in malesuada diam elementum non fermentum velit. Faucibus fermentum </p>                      
+                        </div>
+                      </div>
+                    </div>                  
+                  </div>
+                </div> 
+              
+
+              </div>
+
+
+          </div>
+        </section>
+
+        <!-- cta -->
+        <section class="section cta">
+          <div class="container cta__content text-center">
+            <div class="row justify-content-center">
+              <div class="col-md-6">
+                <h2 class="cta__text">Ready to superpower your business?</h2>
+              </div>
+              <div class="col-md-6 d-flex justify-content-center justify-content-md-end align-items-center ">
+                <button type="button" class="btn cta__btn">Get started for free</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- footer -->
+        <footer class="footer">
+          <div class="container">
+            <div class="row align-items-center">
+              <!-- <div class="col-lg-4 order-lg-1 order-md-2">
+                <ul class="nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Terms & Conditions</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Privacy Policy</a>
+                  </li>
+                </ul>
+              </div> -->
+              <div class="">
+                <a class="navbar-brand d-flex justify-content-center mx-auto" href="#"><img src="images/Logo.svg" alt="logo"></a>
+              </div>
+              <!-- <div class="col-lg-4 order-3 order-md-3">
+                <ul class="nav justify-content-end">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Cookies</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Refunds</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">License</a>
+                  </li>
+                </ul>
+              </div> -->
+            </div>
+            <hr class="footer__hr">
+            <div class="row align-items-center g-4">
+              <div class="col-12 col-lg-6 footer__col-1">
+                <nav class="footer__icons nav">
+                  <a class="nav-link" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                      <path d="M17.6676 25.4077V16.7028H20.0706L20.389 13.7031H17.6676L17.6717 12.2017C17.6717 11.4193 17.7461 11.0001 18.8698 11.0001H20.372V8H17.9687C15.082 8 14.066 9.4552 14.066 11.9024V13.7034H12.2666V16.7031H14.066V25.4077H17.6676Z" fill="#728095"/>
+                    </svg>
+                  </a>
+                  <a class="nav-link" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M12.7996 12.7999C11.0323 12.7999 9.59961 11.3672 9.59961 9.5999C9.59961 7.83259 11.0323 6.3999 12.7996 6.3999H15.9996H19.1996C20.9669 6.3999 22.3996 7.83259 22.3996 9.5999C22.3996 11.3672 20.9669 12.7999 19.1996 12.7999H15.9996V15.9999V19.1999V22.3999C15.9996 24.1672 14.5669 25.5999 12.7996 25.5999C11.0323 25.5999 9.59961 24.1672 9.59961 22.3999C9.59961 20.6334 11.0309 19.2012 12.7971 19.1999C11.0309 19.1986 9.59961 17.7664 9.59961 15.9999C9.59961 14.2326 11.0323 12.7999 12.7996 12.7999ZM15.9996 15.9999C15.9996 17.7672 17.4323 19.1999 19.1996 19.1999C20.9669 19.1999 22.3996 17.7672 22.3996 15.9999C22.3996 14.2326 20.9669 12.7999 19.1996 12.7999C17.4323 12.7999 15.9996 14.2326 15.9996 15.9999Z" fill="#728095"/>
+                    </svg>
+                  </a>
+                  <a class="nav-link" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M11.546 9.8818C11.5224 8.8136 10.7586 8 9.51815 8C8.27774 8 7.4668 8.8136 7.4668 9.8818C7.4668 10.9279 8.25377 11.7649 9.47108 11.7649H9.49426C10.7586 11.7649 11.546 10.9279 11.546 9.8818ZM11.3072 13.2519H7.68121V24.1464H11.3072V13.2519ZM20.2089 12.9961C22.5949 12.9961 24.3837 14.5535 24.3837 17.8998L24.3836 24.1464H20.7578V18.3178C20.7578 16.8538 20.2331 15.8548 18.9205 15.8548C17.9187 15.8548 17.322 16.5283 17.06 17.1788C16.9641 17.4119 16.9406 17.7367 16.9406 18.0623V24.1467H13.3142C13.3142 24.1467 13.362 14.2745 13.3142 13.2522H16.9406V14.7953C17.4218 14.0535 18.2837 12.9961 20.2089 12.9961Z" fill="#728095"/>
+                    </svg>
+                  </a>
+                  <a class="nav-link" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                      <path d="M10.729 25.1107C10.4381 26.3436 10.551 28.0733 10.6776 29.2L11.6683 29.5436C12.2568 28.5971 13.1397 27.0459 13.4665 25.808C13.6427 25.1411 14.3681 22.4211 14.3681 22.4211C14.8404 23.307 16.2194 24.0581 17.6874 24.0581C22.052 24.0581 25.1984 20.1053 25.1984 15.1941C25.1984 10.4867 21.2958 6.96338 16.2741 6.96338C10.0275 6.96338 6.70996 11.0931 6.70996 15.5882C6.70996 17.6766 7.83918 20.2804 9.64594 21.1091C9.9214 21.2337 10.0685 21.1781 10.1318 20.9171C10.1798 20.72 10.4244 19.7516 10.5339 19.3019C10.5681 19.1571 10.551 19.0341 10.433 18.8926C9.83415 18.1785 9.35679 16.8649 9.35679 15.6404C9.35679 12.4977 11.7744 9.45601 15.8926 9.45601C19.4496 9.45601 21.9391 11.8409 21.9391 15.2531C21.9391 19.1082 19.9612 21.7794 17.388 21.7794C15.9679 21.7794 14.9037 20.624 15.2442 19.2042C15.6531 17.5099 16.4435 15.6825 16.4435 14.4598C16.4435 13.3651 15.8464 12.4522 14.6128 12.4522C13.1585 12.4522 11.9934 13.931 11.9934 15.9133C11.9934 17.1747 12.4262 18.0286 12.4262 18.0286C12.4262 18.0286 10.9907 23.9992 10.729 25.1107Z" fill="#728095"/>
+                    </svg>
+                  </a>
+                  <a class="nav-link" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                      <path d="M15.5208 13.0051L15.5544 13.5587L14.9948 13.4909C12.9579 13.2311 11.1784 12.3498 9.66756 10.8696L8.92891 10.1352L8.73865 10.6776C8.33575 11.8865 8.59316 13.1633 9.43253 14.022C9.8802 14.4965 9.77948 14.5643 9.00725 14.2819C8.73865 14.1915 8.50363 14.1237 8.48124 14.1576C8.4029 14.2367 8.6715 15.2648 8.88414 15.6716C9.17513 16.2365 9.76828 16.7902 10.4174 17.1178L10.9658 17.3777L10.3167 17.389C9.68994 17.389 9.66756 17.4003 9.73471 17.6376C9.95854 18.372 10.8427 19.1516 11.8276 19.4906L12.5214 19.7278L11.9171 20.0894C11.0218 20.6091 9.96973 20.9029 8.91772 20.9255C8.41409 20.9368 8 20.982 8 21.0159C8 21.1289 9.36538 21.7616 10.16 22.0102C12.5438 22.7446 15.3753 22.4282 17.5017 21.1741C19.0126 20.2815 20.5235 18.5076 21.2286 16.7902C21.6091 15.875 21.9896 14.2028 21.9896 13.4006C21.9896 12.8808 22.0232 12.813 22.6499 12.1916C23.0192 11.83 23.3662 11.4346 23.4333 11.3216C23.5452 11.1069 23.534 11.1069 22.9633 11.299C22.012 11.638 21.8777 11.5928 22.3477 11.0843C22.6947 10.7228 23.1088 10.0674 23.1088 9.87536C23.1088 9.84146 22.9409 9.89796 22.7506 9.99965C22.5492 10.1126 22.1015 10.2821 21.7658 10.3838L21.1614 10.5759L20.613 10.203C20.3108 9.99965 19.8856 9.77367 19.6617 9.70588C19.0909 9.5477 18.218 9.57029 17.7032 9.75107C16.3042 10.2595 15.4201 11.5702 15.5208 13.0051Z" fill="#728095"/>
+                    </svg>
+                  </a>
+                </nav>
+              </div>
+              <div class="col-12 col-lg-6 footer__col-2">
+                <span class="footer__copyright ">Copyright 2022 Zeus UI</span>
+              </div>
+            </div>
+          </div>
+          
+        </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

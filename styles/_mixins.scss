@@ -1,0 +1,107 @@
+
+@mixin text-1{
+    // color: var(--grey-60, #728095);
+    font-size: 16px;
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+@mixin text-2{
+    // color: var(--grey-60, #728095);
+    font-size: 16px;
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+@mixin text-3{
+    font-size: 14px;
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+}
+@mixin heading-1{
+    // color: #FFF;
+    // text-align: center;
+    font-size: 80px;
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px;
+}
+@mixin heading-2{
+    font-size: 48px;
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+}
+@mixin heading-3{
+    font-size: 28px;
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+}
+@mixin heading-4{
+    font-size: 24px;
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+}
+@mixin paragraph-1{
+    font-size: 16px;
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+@mixin paragraph-2{
+    font-size: 20px;
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+@mixin btn-1{
+    height: 52px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 4px;
+    border: 1px solid var(--grey-80, #2E3747)!important;
+    padding: 16px 20px;
+}
+@mixin btn-2{
+    height: 52px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 4px;
+    background: var(--linear-gradient-06, linear-gradient(135deg, #1E84E3 0%, #5C26D3 100%))!important;
+    padding: 16px 20px;
+}
+@mixin price-btn1{
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    align-self: stretch;
+    border-radius: 4px;
+    border: 1px solid var(--grey-80, #2E3747)!important;
+}
+@mixin price-btn2{
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    align-self: stretch;
+    border-radius: 4px;
+    border: none;
+    background: var(--linear-gradient-06, linear-gradient(135deg, #1E84E3 0%, #5C26D3 100%))!important;
+}
